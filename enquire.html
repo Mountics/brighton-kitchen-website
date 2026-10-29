@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kitchen Hire Enquiry | Brighton College Kitchen</title>
+<meta name="description" content="Enquire about hiring a Brighton College kitchen in Melbourne or Brisbane. Tell us your dates, group size and what you plan to do.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a href="index.html" class="site-header__logo" aria-label="Brighton College Kitchen Hire, home">
+      <img src="images/logo.png" alt="Brighton College">
+    </a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#hire">Kitchen Hire</a>
+      <a href="index.html#facilities">Our Facilities</a>
+      <a href="index.html#locations">Locations</a>
+      <a href="index.html#faqs">FAQs</a>
+      <a href="#enquire-form" class="btn btn--orange site-nav__cta">Enquire About Kitchen Hire</a>
+    </nav>
+    <a href="#enquire-form" class="btn btn--orange btn--sm" aria-current="page">Enquire About Kitchen Hire</a>
+  </div>
+</header>
+
+<main>
+
+<!-- Page title -->
+<section class="page-title">
+  <div class="container stack" data-reveal>
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a><span aria-hidden="true">/</span><span>Kitchen Hire Enquiry</span>
+    </nav>
+    <h1>Tell Us What You Need</h1>
+    <p>Share your contact details, preferred location, dates and intended use. The team will follow up to discuss availability and next steps.</p>
+  </div>
+</section>
+
+<!-- Form -->
+<section id="enquire-form">
+  <div class="container enquiry__inner">
+
+    <div class="enquiry__panel" data-reveal>
+      <div class="form-success" role="status" aria-live="polite" hidden data-form-success>
+        <div class="form-success__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0b58a6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg></div>
+        <h2>Enquiry received</h2>
+        <p>Thank you for enquiring about Brighton College Kitchen. We've received your details and will be in touch to discuss your requirements and availability.</p>
+        <div class="form-success__actions">
+          <button type="button" class="btn btn--outline btn--sm" data-form-reset>Send another enquiry</button>
+          <a href="index.html" class="btn btn--blue btn--sm">Back to home</a>
+        </div>
+      </div>
+
+      <!-- TODO: point action at the real form handler (email service, CRM or backend). -->
+      <form class="form" action="#" method="post" data-enquiry-form novalidate>
+        <h2 class="form__group-title">Your details</h2>
+        <label class="field">Full name
+          <input type="text" name="name" autocomplete="name" required></label>
+        <label class="field">Organisation or business name
+          <input type="text" name="organisation" autocomplete="organization"></label>
+        <label class="field">Email address
+          <input type="email" name="email" autocomplete="email" required></label>
+        <label class="field">Phone number
+          <input type="tel" name="phone" autocomplete="tel"></label>
+        <label class="field">Type of organisation
+          <select name="organisation_type">
+            <option value="">Select one</option>
+            <option>RTO or training provider</option>
+            <option>Trainer or educator</option>
+            <option>Chef or caterer</option>
+            <option>Food business</option>
+            <option>Other</option>
+          </select></label>
+        <label class="field">Preferred contact method
+          <select name="contact_method">
+            <option>Email</option>
+            <option>Phone</option>
+          </select></label>
+
+        <h2 class="form__group-title form__group-title--split">Your booking</h2>
+        <label class="field">Preferred location
+          <select name="location" required>
+            <option value="">Select a city</option>
+            <option>Melbourne</option>
+            <option>Brisbane</option>
+          </select>
+          <span class="field__hint" data-location-hint aria-live="polite"></span></label>
+        <label class="field">Number of people attending
+          <input type="number" name="people" min="1"></label>
+        <label class="field">Preferred date or dates
+          <input type="text" name="dates" placeholder="e.g. 12 and 19 March"></label>
+        <label class="field">Required start and finish times
+          <input type="text" name="times" placeholder="e.g. 8am to 2pm"></label>
+        <label class="field field--full">Intended use of the kitchen
+          <textarea name="intended_use" rows="3" required></textarea></label>
+        <label class="field field--full">Equipment or facilities required
+          <textarea name="equipment" rows="3"></textarea></label>
+        <label class="field field--full">Additional information
+          <textarea name="additional_info" rows="3" placeholder="Include a site visit request here if you would like one"></textarea></label>
+        <div class="form__actions">
+          <button type="submit" class="btn btn--orange">Submit Kitchen Hire Enquiry</button>
+        </div>
+      </form>
+    </div>
+
+    <aside class="enquiry__aside" data-reveal>
+      <div class="talk-box">
+        <h2>Prefer to talk?</h2>
+        <span>Email: [Insert kitchen hire enquiry email]</span>
+        <span>Phone: [Insert contact number]</span>
+      </div>
+    </aside>
+
+  </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer id="contact" class="site-footer">
+  <div class="container site-footer__inner stack">
+    <div class="site-footer__cols">
+      <div class="site-footer__brand stack">
+        <a href="index.html" class="site-footer__logo"><img src="images/logo_white.png" alt="Brighton College"></a>
+        <p>Kitchen hire enquiries for suitable training, catering and food-related activities in Melbourne and Brisbane.</p>
+      </div>
+      <nav class="site-footer__col stack" aria-label="Footer">
+        <span class="site-footer__heading">Quick Links</span>
+        <a href="index.html#home">Home</a>
+        <a href="index.html#hire">Kitchen Hire</a>
+        <a href="index.html#facilities">Our Facilities</a>
+        <a href="index.html#locations">Locations</a>
+        <a href="index.html#how-it-works">How It Works</a>
+        <a href="index.html#faqs">FAQs</a>
+        <a href="#enquire-form">Make an Enquiry</a>
+      </nav>
+      <div class="site-footer__col site-footer__col--contact stack">
+        <span class="site-footer__heading">Contact</span>
+        <span>Email: [Insert kitchen hire enquiry email]</span>
+        <span>Phone: [Insert contact number]</span>
+        <span>Melbourne: Level 1, 255 William Street, Melbourne, VIC 3000</span>
+        <span>Brisbane: Level 2, 108 Margaret Street, Brisbane City, QLD 4000</span>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© Brighton College. All rights reserved.</span>
+      <div><a href="#privacy">Privacy Policy</a><a href="#terms">Terms and Conditions</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
