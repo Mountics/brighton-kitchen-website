@@ -22,10 +22,13 @@ Plain HTML, CSS and JavaScript. No build step: open `index.html` in a browser or
 - Layouts use flex and grid with wrapping so every section works at phone width
 - Use plain, everyday wording in copy
 
+## Contact details
+
+- Phone: 1800 462 744, email: info@brighton.edu.au (footer and enquiry page)
+- Footer Privacy Policy and Terms and Conditions link to the main Brighton College site
+
 ## Still to do
 
 - Connect the enquiry form to a real handler (email service, CRM or backend). The confirmation message must only show after a successful submission. See the TODO in `js/main.js`.
-- Replace the placeholders: kitchen hire email and phone number (footer and enquiry page).
-- Add Privacy Policy and Terms and Conditions pages (footer links are placeholders).
 - Confirm with Brighton College before publishing any claims about equipment, access, licensing, storage, capacity, pricing or availability. The hero copy ("fully-equipped", "hourly, daily and monthly hire") and the "Why choose our kitchens" highlights need sign-off.
 - Optional: separate Melbourne and Brisbane location pages with location-specific photos and access details.

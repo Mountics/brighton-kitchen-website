@@ -391,3 +391,7 @@ body:has(.lightbox[open]) { overflow: hidden; }
   .btn.is-loading::after { animation: spin 1.5s linear infinite !important; }
   @view-transition { navigation: none; }
 }
+
+/* Contact links on dark panels */
+.talk-box a { color: var(--white); font-weight: 600; }
+.talk-box a:hover { color: var(--orange-light); }
