@@ -183,8 +183,8 @@ if (form) {
   var locationSelect = form.elements.location;
   var locationHint = form.querySelector('[data-location-hint]');
   var addresses = {
-    Melbourne: 'Level 1, 255 William Street, Melbourne, VIC 3000',
-    Brisbane: 'Level 2, 108 Margaret Street, Brisbane City, QLD 4000'
+    Melbourne: '174 Victoria Street, Richmond, VIC 3121',
+    Brisbane: '1/88 Brunswick Street, Fortitude Valley, QLD 4006'
   };
 
   // Show the address of the chosen city, with a link back to the homepage card

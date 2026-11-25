@@ -6,7 +6,7 @@ Audiences: RTOs and training providers, trainers and hospitality educators, chef
 
 ## Structure
 
-- `index.html` – homepage: hero, gallery, who can hire, intro, locations, how it works, why choose our kitchens, FAQs, final call to action
+- `index.html` – homepage: hero, gallery, who can hire, why choose our kitchens, intro, how it works, locations, FAQs, final call to action. The order follows what a visitor needs to believe, in turn: (1) the facilities are professional and suit them, (2) hiring is easier than the alternatives, (3) the kitchens are genuinely available, (4) enquiring is worth their time. Keep new content in that sequence.
 - `enquire.html` – enquiry form page (all "Enquire" buttons link here; `?location=Melbourne` or `?location=Brisbane` pre-selects the city)
 - `css/styles.css` – all styles, colour tokens in `:root`
 - `js/main.js` – FAQ accordion and form behaviour, no dependencies
